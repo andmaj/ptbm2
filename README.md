@@ -128,7 +128,7 @@ make clean
 Copy ptbm2 folder to the Emscripten folder. Then run:
 
 ```
-emcc --bind -Iptbm ptbm/ptbm2-emscripten.cpp -o ptbm2.js
+emcc --bind -Iptbm ptbm2/ptbm2-emscripten.cpp -o ptbm2.js
 ```
 
 Upload ptbm2.js, ptbm2.wasm and ptbm2/ptbm2.html to a directory of a web server.
